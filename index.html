@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a ><img src="logoname.jpeg" alt="" srcset=""></a>
+        <nav class="navbar">
+            
+            <a class="class" href="#classes">Classes</a>
+                
+            
+            <a href="#subjects">Subjects</a>
+            <a href="#Resources">Resources</a>
+            <a href="#community">community</a>
+            <a id="login-btn" href="#"><button>Login</button></a>
+            
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+
+
+        </div>
+    </header>
+    <section class="login-form-container">
+
+        <div class="row">
+            <div class="teachers">
+                <h2>Teachers</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab illo at dicta sequi neque! Facilis
+                    aperiam
+                    placeat aut veniam sint deleniti tenetur, rerum voluptas est. Quidem nulla quod facilis! Vel! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quam quo quos dicta placeat voluptas
+                    quis
+                    porro, ea repellendus magni, tenetur cum culpa. Eligendi, illo? Eligendi quod necessitatibus
+                    aperiam?
+                </p>
+                <button onclick="displayteacher()">Start Teaching</button>
+                <section class="login-teacher">
+                    <div id="id01" class="modal">
+                        <span onclick="closeteacher()" class="close"
+                            >&times;</span>
+            
+                        <div class="title">For Teachers</div>
+                        <div class="container">
+            
+                            
+                            <form class="modal-content animate" action="">
+            
+            
+            
+                                <div class="field">
+                                    <input type="text" name="user" required>
+                                    <label for="">Full Name</label>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="school" required>
+                                    <label for="">School Name</label>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="email" required>
+                                    <label for=""> Email Address</label>
+                                </div>
+                                <div class="field">
+                                    <input type="password" name="psw" required>
+                                    <label for="">Password</label>
+                                </div>
+            
+                                
+                                <div class="field">
+                                    <button class="submitlog" type="submit"> <a href="#"></a> LOGIN</button>
+                                </div>
+            
+                            </form>
+                        </div>
+                    </div>
+            
+                </section>
+            </div>
+            <div class="teachers">
+                <img class="login-image" src="Login2.jpg" alt="" srcset="">
+            </div>
+            <div class="teachers">
+                <h2>Students</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab illo at dicta sequi neque! Facilis
+                    aperiam
+                    placeat aut veniam sint deleniti tenetur, rerum voluptas est. Quidem nulla quod facilis! Vel! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Voluptate est in corrupti temporibus odio eos
+                    consequatur quae iste pariatur voluptas minus adipisci, rem expedita. Ipsum ducimus fugit sequi
+                    rerum
+                    odit.</p>
+                <button onclick="displaystudent()" > Start Learning</button>
+                <section class="login-student">
+                    <div id="id01" class="modal">
+                        <span onclick="closestudent()" class="close"
+                            >&times;</span>
+            
+                        <div class="title">For Students</div>
+                        <div class="container">
+            
+                            <!-- Modal Content -->
+                            <form class="modal-content animate" action="">
+            
+            
+            
+                                <div class="field">
+                                    <input type="text" name="User" required>
+                                    <label for="">Email Address</label>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="school" required>
+                                    <label for="">School Name</label>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="email" required>
+                                    <label for="">Email Address</label>
+                                </div>
+                                <div class="field">
+                                    <input type="password" name="psw" required>
+                                    <label for="">Password</label>
+                                </div>
+            
+                                
+                                <div class="field">
+                                    <button class="submitlog" type="submit"> <a href="#"></a>LOGIN</button>
+                                </div>
+            
+                            </form>
+                        </div>
+                    </div>
+            
+                </section>
+                
+            </div>
+        </div>
+        <div class="sign">
+            <h3>Don't have an account?<a href="#">Sign up</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui, quod dolor dolores rerum,
+                consequatur hic similique, ipsa id porro mollitia a alias odit laboriosam consectetur eos. Totam,
+                blanditiis
+                repellat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere laboriosam dolorem earum omnis
+                consequuntur, hic aspernatur, impedit nihil quisquam aperiam cupiditate at fugit possimus architecto.
+                Non minus architecto deleniti et? </p>
+        </div>
+
+    </section>
+    
+    
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="dudley_opm-01.jpg" alt="" class="home-img">
+        </div>
+        <div class="content">
+            <span>Welcome to quiz mania!</span>
+            <h3>Ready to dazzle learn with quizique</h3>
+            
+            <a href="#"><button type="button" class="start">Start Demo Quiz</button></a>
+            
+
+
+        </div>
+    </section>
+    <section class="secRight">
+        <div class="paras">
+            <p class="sectionTag">The end of search is here </p>
+            <p class="sectionSubTag ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum illum dolorum
+                facilis quos, iusto, recusandae unde quaerat eos, eligendi at modi non facere quibusdam accusantium
+                nihil
+                quam laborum explicabo architecto eum doloremque ullam odit quidem sint. Dicta modi nisi aut velit. Nisi
+                accusamus obcaecati totam asperiores! Id praesentium exercitationem reiciendis corporis quae cum ratione
+                voluptatibus repellendus! Illum quisquam esse est optio id tempora ad sapiente aperiam quaerat pariatur.
+                Laudantium voluptas non amet delectus repellat corrupti sunt! Veniam blanditiis optio impedit porro
+                dolores
+                dolore saepe mollitia minima quia? Nostrum reprehenderit praesentium explicabo quidem obcaecati maiores
+                repudiandae doloribus ad ipsum aliquid Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laudantium aspernatur, suscipit voluptatem, voluptas et debitis aperiam totam officiis ad perspiciatis
+                amet odit tenetur sit.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="online-quiz-creator2.jpg" alt="laptop image" class="imgfluid">
+        </div>
+    </section>
+    <section class="secLeft">
+        <div class="paras">
+            <p class="sectionTag">Daily quizzes and Evaluation </p>
+            <p class="sectionSubTag ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum illum dolorum
+                facilis quos, iusto, recusandae unde quaerat eos, eligendi at modi non facere quibusdam accusantium
+                nihil
+                quam laborum explicabo architecto eum doloremque ullam odit quidem sint. Dicta modi nisi aut velit. Nisi
+                accusamus obcaecati totam asperiores! Id praesentium exercitationem reiciendis corporis quae cum ratione
+                voluptatibus repellendus! Illum quisquam esse est optio id tempora ad sapiente aperiam quaerat pariatur.
+                Laudantium voluptas non amet delectus repellat corrupti sunt! Veniam blanditiis optio impedit porro
+                dolores
+                dolore saepe mollitia minima quia? Nostrum reprehenderit praesentium explicabo quidem obcaecati maiores
+                repudiandae doloribus ad ipsum aliquid Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laudantium aspernatur, suscipit voluptatem, voluptas et debitis aperiam totam officiis ad perspiciatis
+                amet odit tenetur sit.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="photo2.jpeg" alt="laptop image" class="imgfluid">
+        </div>
+    </section>
+    <section class="secRight">
+        <div class="paras">
+            <p class="sectionTag">Create our own goals</p>
+            <p class="sectionSubTag ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum illum dolorum
+                facilis quos, iusto, recusandae unde quaerat eos, eligendi at modi non facere quibusdam accusantium
+                nihil
+                quam laborum explicabo architecto eum doloremque ullam odit quidem sint. Dicta modi nisi aut velit. Nisi
+                accusamus obcaecati totam asperiores! Id praesentium exercitationem reiciendis corporis quae cum ratione
+                voluptatibus repellendus! Illum quisquam esse est optio id tempora ad sapiente aperiam quaerat pariatur.
+                Laudantium voluptas non amet delectus repellat corrupti sunt! Veniam blanditiis optio impedit porro
+                dolores
+                dolore saepe mollitia minima quia? Nostrum reprehenderit praesentium explicabo quidem obcaecati maiores
+                repudiandae doloribus ad ipsum aliquid Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laudantium aspernatur, suscipit voluptatem, voluptas et debitis aperiam totam officiis ad perspiciatis
+                amet odit tenetur sit.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="photo4.jpeg" alt="laptop image" class="imgfluid">
+        </div>
+    </section>
+    <footer>
+        <div class="left">
+            <p>Use Quizique Anywhere Anytime</p>
+            <input type="number" placeholder="Enter Whatsapp No">
+        </div>
+        <div class="center">
+            <h6>Created by</h6>
+            <h5>SDI CLUB</h5>
+            <p>Bangalore institute of technology</p>
+        </div>
+        <div>
+            <div class="right">
+            <p>Contact us</p><br>
+            <a>+91 999-3333-666</a><br>
+            <a >1800 333 1444</a><br>
+            <a >quizique@gmail.com</a>
+            <ul class="sci">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </ul>
+        </div>
+
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
